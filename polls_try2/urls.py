@@ -1,4 +1,4 @@
-"""webscrapper_try2 URL Configuration
+"""polls_try2 URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.2/topics/http/urls/
@@ -17,6 +17,6 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('ws_app/', include('ws_app.urls')),
+    path('polls_app/', include('polls_app.urls')),
     path('admin/', admin.site.urls),
 ]
